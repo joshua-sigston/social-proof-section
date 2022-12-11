@@ -1,0 +1,32 @@
+.heading_container {
+    gap: 2rem;
+}
+
+.first_statement {
+    color: var(--clr-vry-drk-magenta);
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: var(--fw-bold);
+}
+
+.second_statement {
+    color: var(--clr-drk-gry-magenta);
+    line-height: 1.3;
+    font-size: 1.2rem;
+    font-weight: var(--fw-md);
+}
+
+@media screen and (min-width: 1440px) {
+    .heading_container {
+        text-align: left;
+        flex: 1;
+    }
+
+    .first_statement {
+        width: 70%;
+    }
+
+    .second_statement {
+        padding-right: 2em;
+    }
+}
